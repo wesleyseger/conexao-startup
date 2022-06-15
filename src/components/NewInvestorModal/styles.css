@@ -1,0 +1,19 @@
+.register-modal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.register-modal input, .register-modal textarea{
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  min-width: 300px;
+  width: 100%;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+}
+
+.register-modal textarea{
+  min-height: 100px;
+}

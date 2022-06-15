@@ -7,6 +7,7 @@ import logo from '../../assets/logo.png';
 import avatar from '../../assets/avatar.png';
 
 export default function Header() {
+
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
@@ -17,16 +18,16 @@ export default function Header() {
         <Navbar.Collapse>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/investors">Investimentos</Nav.Link>
-            <Nav.Link href="/entrepreneurs">Empreendimentos</Nav.Link>
-            <Nav.Link href="/pricing">Consultar Empreendedores</Nav.Link>
+            <Nav.Link href="/investors">Investidores</Nav.Link>
+            <Nav.Link href="/entrepreneurs">Empreendedores</Nav.Link>
+            <Nav.Link href="/projects">Consultar Projetos</Nav.Link>
           </Nav>
           <Nav>
             <div className="profile">
               <img src={avatar} alt="" />
               <span>
                 <b>Wesley Seger</b>
-                <small>Mentor</small>
+                <small>Administrador</small>
               </span>
             </div>
           </Nav>
